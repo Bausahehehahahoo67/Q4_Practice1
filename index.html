@@ -12,9 +12,19 @@
       <button class="btn btn-info" onclick="checkAge()">Check Age</button>
 
       <script>
-        if(15<18){
-            alert("You are a minor, be careful!");
-        }    
+        function checkAge() {
+            if(19<18) {
+                alert("You are a minor, be careful!");
+            }
+            else if(19>18){
+                alert("You are a major, do NOT do something to minors!")
+            }
+            else{
+                alert("You're biological specimen makes the detector unable to determine you age, please give up.")
+            }
+            
+
+        }
       </script>
 </body>
 </html>
